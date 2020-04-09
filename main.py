@@ -18,10 +18,10 @@ def update(youtube, vId, x, catId):
   
 def main():
   videoId=input('Enter videoId:')
-  categoryId=input('Enter categoryId:')
+  categoryId=input('Enter categoryId:')     
   youtube=auth.authentication()
-  x=videostats(youtube, videoId)[0]
-  update(youtube, videoId, x, categoryId)
+  x=videostats(youtube, videoId)[0]            # YOU CAN PUT  A LOOP HERE TO CONTINOUSLY  CHECK THE VIEWS AND CHANGE THE TITLE
+  update(youtube, videoId, x, categoryId)      #BUT THERE IS A QUOTA LIMIT SET BY GOOGLEFOR YOUR PROJECT TO ACCESS THEIR API .
     
     
 if __name__ == "__main__":
