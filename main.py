@@ -17,8 +17,8 @@ def update(youtube, vId, x, catId):
   
   
 def main():
-  videoId=input()
-  categoryId=input()
+  videoId=input('Enter videoId:')
+  categoryId=input('Enter categoryId:')
   youtube=auth.authentication()
   x=videostats(youtube, videoId)[0]
   update(youtube, videoId, x, categoryId)
