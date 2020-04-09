@@ -4,3 +4,6 @@ things you need :
 python 
 and google client libraries that are in the code
 you need to make a project in the google developer console and enable youtubes data api .fill in the credential ,you need to setup OAuth credential (since updating is a PUT, which need authorization).Download the your_client_secret.json fileand add it to the directory this codes are copied.
+
+
+run the command on your terminal with `python main.py`.You will be asked for the videoid first then category id ,put that in and there will be authorization to proceed
