@@ -1,4 +1,7 @@
 # Youtube-video-title-changer-with-views
+
+TRY TO UNDERSTAND THE CODE BEFORE USING IT UNDERSTAND THE RISKS:
+YOU MUST ADD A LOOP TO HAVE CONTINUOS UPDATION OF THE TITLE WITH CHANGE IN VIEWS IN THE MAIN FUNC IN MAIN.PY(REMEMBER THE QUOTA COST)
 This rep enables you to change youtube video title speacifying the views ,like count or anyother stats(you can add)
 things you need :
 python 
